@@ -24,8 +24,7 @@ h2{
 .navbar{
     background-color:#2C3E50 ;
     width: 100%;
-    max-width: 1400px;
-    min-width: 500px;
+   
 }
 .container-navbar{
     max-width:1000px ;
@@ -44,8 +43,6 @@ h2{
     background-color: #1ABC9C;
     width: 100%;
     height: auto;
-    max-width: 1400px;
-    min-width: 500px;
 }
 .container-main{
     max-width: 960px;
@@ -87,6 +84,11 @@ h2{
     justify-content: center;
     font-weight: bold;
 }
+.section-main-portfolio{
+    width: 100%;
+    height: auto;
+   
+}
 .container-main-portfolio{
     max-width:1000px ;
     min-width:1000px ;
@@ -107,4 +109,43 @@ h2{
 }
 .image-portfolio{
     width: 100%;
+}
+.section-main-contact-me{
+    width: 100%;
+    height: auto;
+}
+.line{
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.margin-bottom-max{
+    margin-bottom: 10rem;
+}
+.margin-bottom-normal{
+    margin-bottom: 1rem;
+}
+.btn-bg-color{
+    background-color: #1ABC9C;
+}
+.section-footer{
+    background-color: #3A546D;
+}
+.container-footer{
+    max-width:1000px ;
+    min-width:1000px ;
+    padding: 1em 1em;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+.section-footer-copyright{
+    background-color: #2C3E50;
+}
+.container-footer-copyright{
+    max-width: 300px ;
+    padding: .3em .3em;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+    text-align: center;
 }
