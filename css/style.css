@@ -162,9 +162,31 @@ h2{
 .menu-nav{
     display: none;
 }
+.btn{
+    transition-timing-function: ease-in-out;
 
+    /* inizio dei miei effetti hover sul file di bootstrap freelencer */
+
+}
+.link-navbar:hover{
+    color: rgb(46, 46, 177);
+    transition: color 1s;
+}
+.container-nav-left:hover{
+    color: rgb(46, 46, 177);
+    transition: color 1s;
+}
+.btn:hover{
+    background-color: aqua;
+    transition: background-color 1s;
+}
 .my-card:hover{
     transform: scale(1.1);
+    transition: transform 1s;
+}
+.card-img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
 }
 
 /* inizio delle mie media query */
