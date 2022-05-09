@@ -163,6 +163,9 @@ h2{
     display: none;
 }
 
+.my-card:hover{
+    transform: scale(1.1);
+}
 
 /* inizio delle mie media query */
 
