@@ -14,7 +14,7 @@
 
     <!-- navbar -->
     <header>
-        <div class="navbar">
+        <div class="my-navbar">
             <!-- display flex e justify content space between -->
             <div class="container-navbar d-flex space-between">
 
@@ -29,6 +29,7 @@
                     <div class="link-navbar">PORTFOLIO</div>
                     <div class="link-navbar">ABOUT</div>
                     <div class="link-navbar">CONTACT</div>
+                    <div class="menu-nav"><i class="fa-solid fa-bars"></i></div>
                 </div>
 
             </div>
@@ -57,11 +58,11 @@
 
                 <!-- container skills  -->
                 <div class="container-skills d-flex">
-                    <div class="color-txt-white">GRApHIC ARTIST</div>
+                    <div class="color-txt-white"><h6>GRAPHIC ARTIST</h6></div>
                     <div class="little-line-white"></div>
-                    <div class="color-txt-white">WEB DESIGNER</div>
+                    <div class="color-txt-white"><h6>WEB DESIGNER</h6></div>
                     <div class="little-line-white"></div>
-                    <div class="color-txt-white">ILLUSTRATOR</div>
+                    <div class="color-txt-white"><h6>ILLUSTRATOR</h6></div>
                 </div>
             </div>
         </div>
@@ -81,22 +82,22 @@
                 <!-- colonne portfolio con bootstrap -->
                 
                 <div class="row">
-                   <div class="col col-4">
+                   <div class=" col-lg-4 col-md-6 col-sm-12">
                     <img class="image-portfolio" src="img/cabin.png" alt="">
                    </div>
-                   <div class="col col-4">
+                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <img class="image-portfolio" src="img/cake.png" alt="">
                    </div>
-                   <div class="col col4">
+                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <img class="image-portfolio" src="img/circus.png" alt="">
                    </div>
-                   <div class="col col-4">
+                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <img class="image-portfolio" src="img/game.png" alt="">
                    </div>
-                   <div class="col col-4">
+                   <div class=" col-lg-4 col-md-6 col-sm-12">
                     <img class="image-portfolio" src="img/safe.png" alt="">
                    </div>
-                   <div class="col col-4">
+                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <img class="image-portfolio" src="img/submarine.png" alt="">
                    </div>
                 </div>
@@ -117,24 +118,26 @@
 
                 <!-- divisione dei paragrafi usando le proprieta' di bootstrap row e col -->
                 <div class="row">
-                    <div class="col color-txt-white">
+                    <div class="col col-md-6 col-sm-12 color-txt-white">
                         <p>
                             Freelancer is a free bootstrap theme created by Start Bootstrap. 
                             The download includes the complete source files including 
                             HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization
                         </p>
                     </div>
-                    <div class="col color-txt-white">
+                    <div class="col col-md-6 col-sm-12 color-txt-white">
                         <p>
                             Whether you're a student looking to showcase your work, a professional
                             looking to attract clients, or a graphic artist looking to share your projects,
                             this template is the perfect starting point!
                         </p>
                     </div>
-
-                    <div class="btn">
-
+                    <div class="text-center">
+                        <div class="btn btn-outline-light">
+                            <i class="fa-solid fa-download"></i> DOWNLOAD
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -157,7 +160,7 @@
                 <div class="line margin-bottom-normal"></div>
                 <h5>Email Address</h5>
                 <div class="line margin-bottom-normal"></div>
-                <h5>phone number</h5>
+                <h5>Phone number</h5>
                 <div class="line margin-bottom-normal"></div>
                 <h5 class="margin-bottom-max">Message</h5>
                 <div class="line margin-bottom-normal"></div>
@@ -173,26 +176,27 @@
             <!-- contianer footer -->
             <div class="container-footer">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-4 col-sm-12">
                         <h4 class="color-txt-white">LOCATION</h4>
                         <a>2215 John Daniel Drive Clark, Mo</a>
                         <a class="color-txt-white">54243</a>
                         
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 col-sm-12">
                         <h4 class="color-txt-white">AROUND THE WEB</h4>
 
                         <!-- contenitore icone social -->
-                        <div class="d-flex">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div class="d-flex container-icon">
+                            <div class="social"><i class="fa-brands fa-facebook"></i></div>
+                            <div class="social"><i class="fa-brands fa-google-plus-g"></i></div>
+                            <div class="social"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="social"><i class="fa-brands fa-linkedin"></i></div>
                         </div>
 
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 col-sm-12">
                         <h4 class="color-txt-white">ABOUT FREELANCER</h4>
+                        <p>Freelancer is a free to use, opens source Bootstrap theme created by <span class="txt-color-ciano">start Bootstrap</span></p>
                     </div>
                 </div>
             </div>
